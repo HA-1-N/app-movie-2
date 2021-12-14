@@ -229,7 +229,7 @@ body{
 .content-main-item-rate {
     position: absolute;
     top: -14px;
-    left: 50%;
+    left: 48%;
     background-color: var(--yellow-color);
     color: var(--white-color);
     padding-left: 1rem;
