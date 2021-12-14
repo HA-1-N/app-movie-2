@@ -1,0 +1,49 @@
+/* Tablet and mobile */
+@media (max-width: 1024px) {
+
+    .main{
+        overflow-x: hidden;
+    }
+
+    .header-icon-menu{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        color: var(--white-color);
+    }
+
+    .header-title-wrap{
+        display: none;
+    }
+
+    .container-side-bar{
+        display: none;
+    }
+
+    .input{
+        padding: 1rem 2rem;
+    }
+
+    .content-main-item-rate{
+        left: 43%;
+    }
+
+    .model{
+        display: block;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .header-icon-menu{
+        font-size: 1.5rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    .header-icon-menu{
+        font-size: 1.2rem;
+    }
+}

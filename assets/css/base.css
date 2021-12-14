@@ -1,0 +1,35 @@
+:root{
+    --black-color: #000;
+    --black-color-2: #1a1c20;
+    --white-color: #fff;
+    --text-color: #555555;
+    --text-color-2: #9e9ea7;
+    --text-color-3: rgb(221, 213, 213);
+    --red-color-1: #f83646;
+    --red-color-2: #ff4350;
+    --red-color-3: #d0494e;
+    --red-color-4: #f14e58;
+    --red-color-5: #c45c64;
+    --red-color-6: #ff434e;
+    --yellow-color: #ffb20a;
+    --blue-color-1: #3498db;
+    --blue-color-2: #74b9ff;
+    --green-color: #2ecc71;
+
+    --header-height: 60px;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.solid{
+    border-top: 1px solid rgb(151, 144, 144);
+    margin: 2rem 0;
+}
